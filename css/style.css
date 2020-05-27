@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 .about .row h2, .services h2, .skills h2, .portfolio h2, .testimonials h2, footer h2 {
   text-transform: uppercase;
   font-size: 46px;
@@ -30,10 +31,6 @@
   @media screen and (max-width: 1024px) {
     #upBtn {
       bottom: 30px; } }
-  #upBtn i {
-    line-height: 41px;
-    color: #4d4d4d;
-    font-size: 16px; }
 
 .btn-default {
   font-size: 16px;
@@ -50,7 +47,7 @@
   background-image: none;
   background-color: transparent;
   text-shadow: none;
-  font-family: 'AsapMedium'; }
+  font-family: "Asap", sans-serif; }
   .btn-default:hover {
     background-color: #FFFFFF;
     border-color: transparent;
@@ -167,14 +164,17 @@ header.container {
         justify-content: center; } }
     .about .row h2 {
       line-height: 50px;
-      text-align: left; }
+      text-align: left;
+      font-family: "Asap", sans-serif;
+      font-weight: 700; }
       .about .row h2:before {
         margin: 0 0 13px; }
     .about .row p {
       font-size: 16px;
       line-height: 26px;
       color: #4d4d4d;
-      margin-bottom: 37px; }
+      margin-bottom: 37px;
+      font-family: "Asap", sans-serif; }
     .about .row a {
       width: 245px;
       margin-bottom: 15px; }
@@ -188,7 +188,10 @@ header.container {
   padding: 110px 0 120px;
   background-color: f6f6f6; }
   .services h2 {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px; }
   .services .row {
     text-align: center;
     display: flex;
@@ -203,7 +206,7 @@ header.container {
       font-size: 24px;
       line-height: 30px;
       margin: 15px 0 0;
-      font-family: 'AsapMedium'; }
+      font-family: "Asap", sans-serif; }
 
 .skills {
   background-color: white;
@@ -211,13 +214,19 @@ header.container {
   .skills img {
     width: 100%; }
   .skills h2 {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px; }
 
 .portfolio {
   background-color: #f6f6f6;
   padding: 107px 0 123px; }
   .portfolio h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px; }
   .portfolio .row .col-xs-12 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -240,7 +249,10 @@ header.container {
   background-color: white;
   padding: 106px 0 121px; }
   .testimonials h2 {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px; }
   .testimonials .owl-carousel.owl-theme {
     border: 1px solid #212121;
     padding: 60px 0 38px; }
@@ -308,7 +320,10 @@ footer {
   padding-top: 145px; }
   footer h2 {
     color: #FFFFFF;
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px; }
     footer h2:before {
       background-color: #FFFFFF; }
   footer .row:first-of-type {
@@ -412,6 +427,6 @@ footer {
       font-size: 16px;
       color: #FFFFFF;
       text-align: center;
-      font-family: 'MontserratRegular'; }
+      font-family: "Asap", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
